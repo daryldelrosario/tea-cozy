@@ -44,8 +44,8 @@ nav ul li {
 }
 
 a:hover {
-    color: red;
-    font-style: italic;
+    color: lightcoral;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .nav-links {
