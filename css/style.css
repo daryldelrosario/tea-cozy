@@ -21,14 +21,17 @@ body {
 
 /* Nav */
 nav {
+    background-color: black;
     display: flex;
     justify-content: space-between;
+    z-index: 11;
     height: 69px;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     border-bottom: 1px solid seashell;
+    opacity: 1;
 }
 
 .logo-pic {
@@ -42,6 +45,7 @@ nav ul li {
 
 a:hover {
     color: red;
+    font-style: italic;
 }
 
 .nav-links {
@@ -56,4 +60,26 @@ a:hover {
 header {
     position: relative;
     padding: 69px;
+}
+
+#mission {
+    position: relative;
+    padding: 69px;
+    height: 700px;
+}
+
+/* Main */
+
+/* Section - Featured Tea */
+#featured-tea {
+    position: relative; 
+    padding: 69px;
+    height: 700px;
+}
+
+/* Section - Location */
+#location {
+    position: relative;
+    padding: 69px;
+    height: 700px;
 }
