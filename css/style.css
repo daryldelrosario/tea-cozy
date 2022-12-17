@@ -1,3 +1,4 @@
+/* Universal */
 * {
     padding: 0;
     margin: 0;
@@ -7,10 +8,52 @@
     font-family: Helvetica, Arial, sans-serif;
     font-size: 22px;
     color: seashell;
-    background-color: black;
     opacity: 0.9;
     text-align: center;
 
     /* For Visual Aid*/
     border: 1px red solid;
+}
+
+body {
+    background-color: black;
+}
+
+/* Nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid seashell;
+}
+
+.logo-pic {
+    height: 50px;
+    margin: 10px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+a:hover {
+    color: red;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 0 11px;
+}
+
+/* Header */
+header {
+    position: relative;
+    padding: 69px;
 }
