@@ -62,7 +62,15 @@ a:hover {
     padding: 0 11px;
 }
 
-/* Header */
+/* Main */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Section - Mission */
 #mission {
     padding-top: 69px;
 }
@@ -83,18 +91,44 @@ a:hover {
     opacity: 1;
 }
 
-/* Main */
-
 /* Section - Featured Tea */
 #featured-tea {
-    position: absolute; 
-    padding: 69px;
-    height: 700px;
+    padding-top: 69px;
+    width: 1000px;
+    flex-direction: column;
+}
+
+.featured-tea-title {
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100px;
+    padding: 11px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+
+.photo img {
+    height: 200px;
+}
+
+.photo span {
+    display: block;
 }
 
 /* Section - Location */
 #location {
-    position: relative;
-    padding: 69px;
     height: 700px;
 }
