@@ -130,5 +130,64 @@ main {
 
 /* Section - Location */
 #location {
-    height: 700px;
+    width: 1200px;
+    padding-top: 69px;
+}
+
+.location-bg {
+    height: 500px;
+    width: 1200px;
+    background-image: url(../img/locations-bg.jpg);
+}
+
+.location-content {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 77%;
+}
+
+.location-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.location-address {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 1;
+    background-color: black;
+}
+
+.location-address span {
+    display: block;
+}
+
+/* Section - Contact Info */
+#contact-info {
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 22px;
+    padding-top: 69px;
+}
+
+span {
+    display: block;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    bottom: 0;
+    left: 20px;
+    opacity: 1;
+    z-index: 11;
+    height: 100px;
 }
