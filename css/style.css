@@ -6,7 +6,6 @@
 
     /*As Per Design Spec*/
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 22px;
     color: seashell;
     opacity: 0.9;
     text-align: center;
@@ -17,6 +16,13 @@
 
 body {
     background-color: black;
+    font-size: 22px;
+}
+
+.center-flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Nav */
@@ -57,22 +63,31 @@ a:hover {
 }
 
 /* Header */
-header {
-    position: relative;
-    padding: 69px;
+#mission {
+    padding-top: 69px;
 }
 
-#mission {
-    position: relative;
-    padding: 69px;
+.mission-background {
+    background-image: url(../img/missions-bg.jpg);
     height: 700px;
+    width: 1200px;
+}
+
+.mission-banner {
+    height: 100px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 1200px;
+    background-color: black;
+    opacity: 1;
 }
 
 /* Main */
 
 /* Section - Featured Tea */
 #featured-tea {
-    position: relative; 
+    position: absolute; 
     padding: 69px;
     height: 700px;
 }
