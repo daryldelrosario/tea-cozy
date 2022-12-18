@@ -7,11 +7,14 @@
     /*As Per Design Spec*/
     font-family: Helvetica, Arial, sans-serif;
     color: seashell;
-    opacity: 0.9;
     text-align: center;
 
     /* For Visual Aid*/
     border: 1px red solid;
+}
+
+html {
+    opacity: 0.9;
 }
 
 body {
@@ -126,6 +129,7 @@ main {
 
 .photo span {
     display: block;
+    font-size: 12px;
 }
 
 /* Section - Location */
@@ -135,6 +139,10 @@ main {
 }
 
 .location-bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     height: 500px;
     width: 1200px;
     background-image: url(../img/locations-bg.jpg);
@@ -146,22 +154,27 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 77%;
+    height: 100%;
+    gap: 15px;
 }
 
 .location-row {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 40px;
 }
+
 .location-address {
     width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    opacity: 1;
     background-color: black;
+    opacity: 1;
+    height: 300px;
+    
 }
 
 .location-address span {
@@ -174,8 +187,6 @@ main {
     height: 200px;
     flex-direction: column;
     justify-content: space-between;
-    padding-bottom: 22px;
-    padding-top: 69px;
 }
 
 span {
